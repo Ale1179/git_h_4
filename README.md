@@ -7,22 +7,37 @@ Crear un nuevo repositorio en github nombre: git_h_4
 Crear un repositorio local
 
 -git init
+
 -Registrar el repositorio remoto con tú repositorio local
+
 -git remote add origin (pegar_la_ruta_del_repositorio_local)
+
 -Verificamos la ruta remota
+
 -git remote -v
+
 -Crear 3 archivos foo.txt | bar.txt | qux.txt
+
 -touch foo.txt
 -touch bar.txt
 -touch qux.txt
+
 -Comprobar que estan creados en nuestro local
+
 -ls -l
+
 -Toca ver el stage
+
 -git status
+
 -Anexamos los 3 archivos al stage
+
 -git add .
+
 -Examinamos el stage
+
 -git status
+
 -10 Ahora toca extraer a "qux.txt" del stage y dejar los otros 2 archivos
 
 -git reset -- qux.txt
